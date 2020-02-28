@@ -1,0 +1,1 @@
+# MIPS-dollar-sign-autogen

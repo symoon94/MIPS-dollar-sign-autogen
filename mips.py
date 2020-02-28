@@ -93,7 +93,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('-i', 'input', type=str, help='path of the input file')
+    parser.add_argument('-i', '--input', type=str, help='path of the input file')
     parser.add_argument('-o', '--output', type=str, help='path of the output file')
     args = parser.parse_args()
     main(args)

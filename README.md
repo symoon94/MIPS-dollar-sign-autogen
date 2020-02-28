@@ -1,6 +1,6 @@
 # MIPS-dollar-sign-autogen
 
-This makes dollar signs automatically next to registers for MIPS. Please just make sure your code contains "___.globl___" and your input and output files have ___a different name or path___.
+This makes dollar signs automatically in front of registers for MIPS. Please just make sure your code contains "___.globl___" and your input and output files have ___a different name or path___.
 
 ## Usage
 

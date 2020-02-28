@@ -4,16 +4,15 @@ import re
 def rw_file(in_file, out_file, dic):
     with open(in_file, "r") as f:
         output = open(out_file, "w")
-
         # assume the input file has .globl
         while True:
             line = f.readline()
-            output.write(line)
-            if line.strip("\t").startswith(".globl"):
-                break
-
-        while True:
-            line = f.readline()
+            if line.strip("\t").startswith("."):
+                while True:
+                    if line.strip("\t").startswith(".globl"):
+                        break
+                    output.write(line)
+                    line = f.readline()
             if line.strip("\t").startswith(("#", ".", "\n")):
                 output.write(line)
                 continue  

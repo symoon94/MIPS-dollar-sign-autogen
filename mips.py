@@ -5,7 +5,7 @@ def rw_file(in_file, out_file, dic):
     with open(in_file, "r") as f:
         output = open(out_file, "w")
 
-        # Assume the input file has .global
+        # assume the input file has .globl
         while True:
             line = f.readline()
             output.write(line)

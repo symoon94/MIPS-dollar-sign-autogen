@@ -33,7 +33,7 @@ Input file:
 Output file:
 ![Result2](assets/asm.png)
 
-## TODO
+## To-do
 - [ ] Add an option to overwrite the input file
 
 ## Author

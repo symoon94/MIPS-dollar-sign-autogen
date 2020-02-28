@@ -22,7 +22,7 @@ which will print:
         -i INPUT, --input INPUT
                                 path of the input file
         -o OUTPUT, --output OUTPUT
-                                path of the input file
+                                path of the output file
 
 
 ## Result

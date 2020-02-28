@@ -27,7 +27,10 @@ which will print:
 
 ## Result
 
+Input file:
 ![Result1](assets/preasm.png)
+
+Output file:
 ![Result2](assets/asm.png)
 
 

@@ -18,12 +18,12 @@ which will print:
     usage: mips.py [-h] [-o OUTPUT] input
 
     positional arguments:
-    input                 path of the input file
+        input                 path of the input file
 
     optional arguments:
-    -h, --help            show this help message and exit
-    -o OUTPUT, --output OUTPUT
-                            path of the output file
+        -h, --help            show this help message and exit
+        -o OUTPUT, --output OUTPUT
+                              path of the output file
 
 
 ## Result

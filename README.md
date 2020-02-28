@@ -6,7 +6,7 @@ This makes dollar signs automatically in front of registers for MIPS. Please jus
 
 To autogenerate dollar signs in your mips file:
 
-    $ python mips.py  -i FILE --input=FILE \
+    $ python mips.py  INPUTFILE \
                       -o FILE --output=FILE 
 
 To see the argument options, run:
@@ -15,14 +15,15 @@ To see the argument options, run:
 
 which will print:
 
-    usage: mips.py [-h] [--input INPUT_FILE_PATH] [--output OUTPUT_FILE_PATH]
+    usage: mips.py [-h] [-o OUTPUT] input
 
-        optional arguments:
-        -h, --help            show this help message and exit
-        -i INPUT, --input INPUT
-                                path of the input file
-        -o OUTPUT, --output OUTPUT
-                                path of the output file
+    positional arguments:
+    input                 path of the input file
+
+    optional arguments:
+    -h, --help            show this help message and exit
+    -o OUTPUT, --output OUTPUT
+                            path of the output file
 
 
 ## Result

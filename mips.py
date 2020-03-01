@@ -2,6 +2,9 @@ import argparse
 import re
 
 def rw_file(in_file, out_file, dic):
+    if not out_file:
+        inputinfo = in_file.rstrip(".s")
+        out_file = inputinfo + "_out.s"
     with open(in_file, "r") as f:
         output = open(out_file, "w")
         # assume the input file has .globl
